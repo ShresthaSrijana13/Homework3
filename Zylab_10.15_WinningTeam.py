@@ -6,7 +6,7 @@ class Team:
         self.team_wins = 0
         self.team_losses = 0
 
-    def get_win_percentage(self):
+    def get_win_percentage(self):  # Define get_win_percentage()
         percentage = self.team_wins / (self.team_wins + self.team_losses)
         return percentage
 
