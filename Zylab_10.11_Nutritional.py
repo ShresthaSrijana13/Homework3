@@ -1,10 +1,9 @@
 # Srijana Shrestha
 # 1918305
 class FoodItem:
-
-    #  Define constructor with parameters to initialize instance attributes (name, fat, carbs, protein)
-
-    def __init__(self, name, fat, carbs, protein):
+    # TODO: Define constructor with parameters to initialize instance
+    #       attributes (name, fat, carbs, protein)
+    def __init__(self, name='None', fat=0, carbs=0, protein=0):
         self.name = name
         self.fat = fat
         self.carbs = carbs
@@ -23,7 +22,7 @@ class FoodItem:
 
 
 if __name__ == "__main__":
-    food_item1 = FoodItem(None, 0, 0, 0) # default parameter
+    food_item1 = FoodItem()
 
     item_name = input()
     amount_fat = float(input())
